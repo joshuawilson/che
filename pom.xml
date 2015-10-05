@@ -24,8 +24,9 @@
     <packaging>pom</packaging>
     <name>Che :: Parent</name>
     <modules>
-        <module>examples</module>
+        <module>che-admin-war</module>
         <module>assembly-sdk-war</module>
+        <module>examples</module>
         <module>assembly-sdk</module>
     </modules>
     <scm>

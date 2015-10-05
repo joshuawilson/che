@@ -25,7 +25,7 @@
         <dependency>
             <groupId>com.codenvy.dashboard</groupId>
             <artifactId>dashboard-war</artifactId>
-            <version>2.0.2</version>
+            <version>2.0.4-SNAPSHOT</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -61,6 +61,12 @@
         <dependency>
             <groupId>org.eclipse.che.ide</groupId>
             <artifactId>assembly-sdk-war</artifactId>
+            <version>${project.version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.che.ide</groupId>
+            <artifactId>che-admin-war</artifactId>
             <version>${project.version}</version>
             <type>war</type>
         </dependency>
