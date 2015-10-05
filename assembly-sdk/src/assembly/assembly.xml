@@ -29,6 +29,14 @@
             </includes>
         </dependencySet>
         <dependencySet>
+            <unpack>false</unpack>
+            <outputDirectory>webapps</outputDirectory>
+            <outputFileNameMapping>dashboard.war</outputFileNameMapping>
+            <includes>
+                <include>com.codenvy.dashboard:dashboard-war</include>
+            </includes>
+        </dependencySet>
+        <dependencySet>
             <useProjectArtifact>false</useProjectArtifact>
             <unpack>true</unpack>
             <outputDirectory>recipes</outputDirectory>
